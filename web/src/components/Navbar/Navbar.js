@@ -34,7 +34,7 @@ const ComponentsNavbar = ({ navbarmenulinks }) => {
             <span className="text-white">Menu</span>
 
           </button>
-          <div className={`${isOpen ? 'show' : ''} collapse navbar-collapse`} id="navbar01">
+          <div className={`${isOpen ? 'show' : ''} collapse navbar-collapse nav-menu__container`} id="navbar01">
             <img src={NavMenuLogo} alt="logo" className="navbar-menu__logo"></img>
             <Nav className="mr-2 navbar-menu nav-item">
               <NavLink className="navbar-menu__link nav-link" to="/home" onClick={handleToggle} activeClassName="active">{navbarmenulinks.link1}</NavLink>
