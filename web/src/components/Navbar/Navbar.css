@@ -1,0 +1,31 @@
+.navbar-menu__link{
+    margin-left: 45px;
+}
+.navbar-expand .navbar-nav .nav-link{
+    padding-right: 3.5rem;
+    padding-left: 2.5rem;
+}
+.navbar{
+    padding:0;
+}
+.narvbar-menu__input{
+    background-color:  #52575c;
+    border-color: #52575c;
+}
+.navbar .form-control:disabled{
+    background-color:  #52575c;
+}
+.navbar-menu__logo{
+    width: 57px;
+}
+.navbar-menu__container{
+    margin-left: 6%;
+    display: flex;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    line-height: 4rem;
+}
+.nav-link.active{
+    background: blue;
+}
